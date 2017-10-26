@@ -1,0 +1,44 @@
+table{
+	text-align: center;
+	margin: auto;
+}
+.adminPanel{
+	width: 1100px;
+	text-align: center;
+	margin: auto;
+}
+.Show{
+	display: block;
+}
+.Hidden{
+	display: none;
+}
+.customList{
+	float: left;
+}
+.topicList, .questionList{
+	font-size: 1.5em;
+	padding: 0.2em;
+	width: 200px;
+	height: 400px
+}
+.questionList{
+	width: 800px;
+	height: 400px;
+	line-height: 1.5em;
+}
+.topicContainer, .questionContainer{
+	float: left;
+	margin-left: 20px;
+
+}
+span{
+	top: 20px;
+	position: relative;
+	margin: 10px;
+	cursor: pointer;
+	background-color: chartreuse;
+	border-radius: 10px;
+	padding: 5px;
+
+}
